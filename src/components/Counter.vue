@@ -1,5 +1,6 @@
 <template>
   <div id="counter">
+    <span v-pre>{{ v-pre nodes }} {{count}}</span>
     <p>Click Count {{count}}</p>
     <div>
       <button @click="countUp">Click</button>
